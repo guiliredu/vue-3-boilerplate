@@ -1,0 +1,90 @@
+@mixin skeleton-element(){
+  background: linear-gradient(-45deg, #FFF, #DDD, #FFF, rgba(255, 255, 255, 0.4));
+	background-size: 200% 200%;
+	animation: bg-gradient 2s ease infinite;
+  border-radius: 0.375rem;
+  opacity:0.6;
+}
+
+@keyframes bg-gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.skeleton {
+  @include skeleton-element();
+
+  &.skeleton-green {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, 0.4), $secondary, $secondary-light, rgba(255, 255, 255, 0.4));
+  }
+
+  &.skeleton-card {
+    height:140px;
+    @extend .shadow-sm;
+    border:1px #DDD solid;
+
+    &.card-line {
+      height:35px;
+    }
+  }
+
+  &.skeleton-button {
+    width:80px;
+    height:1.75rem;
+    border:1px #DDD solid;
+
+    &.button-sm {
+      width:1.75rem;
+    }
+  }
+
+  &.skeleton-badge {
+    max-width:50px;
+    height:1.5rem;
+    border-radius: 0.375rem;
+  }
+
+  &.skeleton-title {
+    // display: inline-block;
+    min-width:120px;
+    max-width:200px;
+    height:1.25rem;
+  }
+
+  &.skeleton-text {
+    height:1rem;
+  }
+
+  &.skeleton-avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius:50%;
+    overflow: hidden;
+
+    &.avatar-rounded {
+      border-radius: 0.375rem;
+    }
+
+    &.avatar-xs {
+      width:1.625rem;
+      height:1.625rem;
+    }
+
+    &.avatar-sm {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    &.avatar-lg {
+      width: 4rem;
+      height: 4rem;
+    }
+  }
+}

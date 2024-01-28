@@ -1,0 +1,63 @@
+$blue: #243c6c !default;
+$blue-light: #dce6f0 !default;
+$indigo: #727cf5 !default; // NOT USED
+$purple: #364896 !default;
+$pink: #e74586 !default; // NOT USED
+$red: #a51c1c !default;
+$red-light: #fbefef !default;
+$orange: #fd7e14 !default; // NOT USED
+$yellow: #f6c343 !default;
+$green: #00d97e !default;
+$green-light: #d6f3e7 !default;
+$teal: #02a8b5 !default; // NOT USED
+$cyan: #176074 !default; // NOT USED
+
+$gray: #f2f4f2;
+
+$color-whatsapp: #25d366;
+$color-facebook: #3b5999;
+$color-messenger: #0084ff;
+$color-twitter: #55acee;
+$color-youtube: #cd201f;
+$color-telegram: #0088cc;
+$color-linkedin: #0077b5;
+$color-instagram-stories: #8134af;
+$color-instagram: #dd2a7b;
+$color-rss: $orange;
+$color-youtube: #e12f30;
+$color-pinterest: #bb081e;
+$color-google-business: #5795fb;
+
+$gradient-instagram: radial-gradient(
+  circle at -20% 107%,
+  #fdf497 0%,
+  #fdf497 5%,
+  #fd5949 45%,
+  #d6249f 60%,
+  #285aeb 90%
+);
+$gradient-instagram-tv: linear-gradient(
+  90deg,
+  rgba(254, 183, 23, 1) 0%,
+  rgba(254, 72, 2, 1) 50%,
+  rgba(255, 11, 140, 1) 100%
+);
+
+// $primary: #236748 !default;
+// $primary-light: lighten(#236748, 7%) !default;
+// $secondary: #d8ede4 !default;
+// $secondary-light: lighten(#d8ede4, 7%) !default;
+
+$primary-light: lighten($blue, 7%) !default;
+$secondary-light: lighten($blue, 12%) !default;
+
+$z-index-alert: 2000;
+
+$breakpoint-sm: 480px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+$path-to-fonts: '/fonts';
+$path-to-img: '/images';

@@ -1,0 +1,128 @@
+.bg-blue {
+  background-color: $blue;
+}
+
+.bg-gray {
+  background-color: #f2f4f2;
+}
+
+.bg-md-transparent {
+  @media (min-width: $breakpoint-md) {
+    background-color: transparent !important;
+  }
+}
+
+.bg-weather-day {
+  background: linear-gradient(23deg, #c2e4fd, #89c6f3);
+  background-color: #c2e4fd;
+}
+
+.bg-weather-night {
+  background: linear-gradient(23deg, #797979, #063251);
+  background-color: #063251;
+}
+
+.bg-image-1 {
+  background-image: linear-gradient(
+      to right,
+      rgba(#a5c9b9, 0.8),
+      rgba(#a5c9b9, 0.8)
+    ),
+    url('/images/bg-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-light {
+  background-color: #ecf3f4 !important;
+}
+
+.bg-primary-light {
+  background-color: $primary-light;
+}
+
+.bg-secondary-light {
+  background-color: $secondary-light;
+}
+
+.bg-danger-light {
+  background-color: lighten($danger, 35%);
+}
+
+.bg-warning-light {
+  background-color: lighten($warning, 35%);
+}
+
+.bg-yellow-light {
+  background-color: lighten($yellow, 35%);
+}
+
+.bg-blue-light {
+  background-color: $blue-light;
+}
+
+.bg-red-light {
+  background-color: $red-light;
+}
+
+.bg-green-light {
+  background-color: $green-light;
+}
+
+.bg-primary-gradient {
+  background-image: linear-gradient(to right, darken($primary, 5%), $primary-light);
+}
+
+.bg-secondary-gradient {
+  background-image: linear-gradient(to right, darken($secondary, 5%), $secondary-light);
+}
+
+.bg-white-opacity {
+  background-color: rgba($color: #FFF, $alpha: 0.3);
+}
+
+.bg-black-opacity {
+  background-color: rgba($color: #000, $alpha: 0.2);
+}
+
+.bg-classificados {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/bg-classificados.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-commodities {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/bg-commodities.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-empresas {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/bg-empresas.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-agrotoxicos {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/bg-agrotoxicos.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-cotacao {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/bg-cotacao.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-consultoria {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url('/images/bg-consultoria.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

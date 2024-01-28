@@ -1,0 +1,68 @@
+.bg-announce {
+  background-color:#e5dbff;
+}
+
+.alert-announce {
+  border-color:#3e1d92 !important;
+  background-color:#e5dbff;
+}
+
+.text-announce {
+  color:#3e1d92;
+}
+
+.border-announce {
+  border-color:#3e1d92;
+}
+
+.btn-announce {
+  border-color:#3e1d92 !important;
+  background-color:#3e1d92 !important;
+  color:#FFF !important;
+}
+
+.btn-outline-announce {
+  border-color:#3e1d92 !important;
+  background-color:#e5dbff !important;
+  color:#3e1d92 !important;
+
+  &.active {
+    background-color:#3e1d92 !important;
+    color:#e5dbff !important;
+  }
+}
+
+// Gold
+.bg-plan-gold {
+  background-color:#f4ebb7;
+}
+
+.alert-plan-gold {
+  border-color:#af9409 !important;
+  background-color:#f4ebb7;
+}
+
+.text-plan-gold {
+  color:#af9409;
+}
+
+.border-plan-gold {
+  border-color:#af9409;
+}
+
+.btn-plan-gold {
+  border-color:#af9409 !important;
+  background-color:#af9409 !important;
+  color:#FFF !important;
+}
+
+.btn-outline-plan-gold {
+  border-color:#af9409 !important;
+  background-color:#f4ebb7 !important;
+  color:#af9409 !important;
+
+  &.active {
+    background-color:#af9409 !important;
+    color:#f4ebb7 !important;
+  }
+}

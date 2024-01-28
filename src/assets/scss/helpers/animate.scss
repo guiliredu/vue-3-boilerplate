@@ -1,0 +1,29 @@
+.animate__animated {
+  &.animate__delay-100 {
+    animation-delay: 0.1s;
+  }
+  &.animate__delay-200 {
+    animation-delay: 0.2s;
+  }
+  &.animate__delay-300 {
+    animation-delay: 0.3s;
+  }
+  &.animate__delay-400 {
+    animation-delay: 0.4s;
+  }
+  &.animate__delay-500 {
+    animation-delay: 0.5s;
+  }
+  &.animate__delay-600 {
+    animation-delay: 0.6s;
+  }
+  &.animate__delay-700 {
+    animation-delay: 0.7s;
+  }
+  &.animate__delay-800 {
+    animation-delay: 0.8s;
+  }
+  &.animate__delay-900 {
+    animation-delay: 0.9s;
+  }
+}

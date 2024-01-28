@@ -1,0 +1,73 @@
+.fs-xs {
+  font-size: 0.75rem !important;
+
+  i {
+    font-size: 120%;
+  }
+}
+
+.small,
+small {
+  font-size: 0.8rem !important;
+}
+
+.text {
+  font-size: 0.875rem !important;
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.text-red {
+  color: $red;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-blue-light {
+  color: $blue-light;
+}
+
+.text-red-light {
+  color: $red-light;
+}
+
+.text-green-light {
+  color: $green-light;
+}
+
+.text-opacity {
+  opacity: 0.75;
+}
+
+.text-muted {
+  color: #ddd;
+}
+
+.text-caption {
+  letter-spacing: 0.2rem;
+  color: $secondary;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+}
+
+.text-danger-light {
+  color: lighten($danger, 10%);
+}
+
+$alignments: (
+  start: start,
+  center: center,
+  end: end,
+);
+
+@each $index, $value in $alignments {
+  @media (min-width: $breakpoint-md) {
+    .text-md-#{$index} {
+      text-align: $value !important;
+    }
+  }
+}

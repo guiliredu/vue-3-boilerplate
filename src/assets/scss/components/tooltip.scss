@@ -1,0 +1,111 @@
+[data-tooltip] {
+    position: relative;
+
+    &:before, &:after {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    &:before {
+        position: absolute;
+        bottom: 110%;
+        left: 50%;
+        margin-bottom: 5px;
+        margin-left: -80px;
+        padding: 7px;
+        width: 160px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        background-color: $primary;
+        background-color: rgba($primary, 0.9);
+        color: #fff;
+        content: attr(data-tooltip);
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.2;
+        font-weight: 300;
+        white-space: initial;
+        z-index: 100;
+
+        @media (max-width:$breakpoint-sm) {
+            // width:calc(100vw - 20px);
+            left:auto;
+            right:0px;
+        }
+    }
+
+    &:after {
+        position: absolute;
+        bottom: 110%;
+        left: 50%;
+        margin-left: -5px;
+        width: 0;
+        border-top: 5px solid $primary;
+        border-top: 5px solid rgba($primary, 0.9);
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        content: " ";
+        font-size: 0;
+        line-height: 0;
+        z-index: 100;
+    }
+
+    &:hover {
+        &:before, &:after {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    &.tooltip-left {
+        &:before {
+            bottom:0px;
+            left:auto;
+            right:calc(110% + 0px);
+            margin-bottom:0px;
+            margin-left:0px;
+        }
+
+        &:after {
+            bottom:10px;
+            left:auto;
+            right:103%;
+            border-left: 5px solid $primary;
+            border-left: 5px solid rgba($primary, 0.9);
+            border-bottom: 5px solid transparent;
+            border-top: 5px solid transparent;
+            border-right: 0px solid transparent;
+        }
+    }
+
+    &.tooltip-right {
+        &:before {
+            bottom:0px;
+            right:auto;
+            left:calc(110% + 0px);
+            margin-bottom:0px;
+            margin-left:0px;
+        }
+
+        &:after {
+            bottom:10px;
+            right:auto;
+            left:110%;
+            border-right: 5px solid $primary;
+            border-right: 5px solid rgba($primary, 0.9);
+            border-bottom: 5px solid transparent;
+            border-top: 5px solid transparent;
+            border-left: 0px solid transparent;
+        }
+    }
+
+    &.tooltip-top-left {
+      &:before {
+        margin-left:0px;
+        left: 0px !important;
+        right: auto !important;
+      }
+  }
+}

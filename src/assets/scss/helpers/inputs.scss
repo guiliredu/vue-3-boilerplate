@@ -1,0 +1,42 @@
+.form-group {
+  // &.form-select {
+  //     position:relative;
+
+  //     &:after {
+  //         position:absolute;
+  //         top:10px;
+  //         right:10px;
+  //         font-family: 'Font Awesome 5 Free';
+  //         font-weight: 900;
+  //         content: "\f078";
+  //         color:#DDD;
+  //     }
+  // }
+}
+
+.multiselect {
+  .multiselect__tags {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    font-weight: 300;
+    border: 2px solid #d8ede4;
+    font-size: 1rem;
+    border-radius: 15px;
+  }
+
+  .multiselect__select {
+    height:50px;
+  }
+
+  .multiselect__placeholder {
+    margin-bottom:0px;
+  }
+
+  .multiselect__single {
+    margin-bottom:0px;
+  }
+
+  .multiselect__input {
+    margin-bottom:0px;
+  }
+}

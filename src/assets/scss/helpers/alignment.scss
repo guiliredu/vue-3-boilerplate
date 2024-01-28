@@ -1,0 +1,13 @@
+.float-end {
+  float: right !important;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+@media (min-width: $breakpoint-md) {
+  .position-md-sticky {
+    position: sticky;
+  }
+}

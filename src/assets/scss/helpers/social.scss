@@ -1,0 +1,164 @@
+.btn-facebook {
+  background-color: $color_facebook;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_facebook, 10%);
+    color: #fff;
+  }
+}
+.btn-whatsapp {
+  background-color: $color_whatsapp;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_whatsapp, 10%);
+    color: #fff;
+  }
+}
+.btn-twitter {
+  background-color: $color_twitter;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_twitter, 10%);
+    color: #fff;
+  }
+}
+.btn-instagram {
+  background-color: $color_instagram;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_instagram, 10%);
+    color: #fff;
+  }
+}
+.btn-linkedin {
+  background-color: $color_linkedin;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_linkedin, 10%);
+    color: #fff;
+  }
+}
+.btn-youtube {
+  background-color: $color_youtube;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_youtube, 10%);
+    color: #fff;
+  }
+}
+.btn-telegram {
+  background-color: $color_telegram;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_telegram, 10%);
+    color: #fff;
+  }
+}
+.btn-rss {
+  background-color: $color_rss;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_rss, 10%);
+    color: #fff;
+  }
+}
+.btn-pinterest {
+  background-color: $color_pinterest;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken($color_pinterest, 10%);
+    color: #fff;
+  }
+}
+
+.text-facebook {
+  color: $color_facebook;
+}
+.text-twitter {
+  color: $color_twitter;
+}
+.text-instagram {
+  color: $color_instagram;
+}
+.text-linkedin {
+  color: $color_linkedin;
+}
+.text-youtube {
+  color: $color_youtube;
+}
+.text-telegram {
+  color: $color_telegram;
+}
+.text-rss {
+  color: $color_rss;
+}
+.text-pinterest {
+  color: $color_pinterest;
+}
+
+.bg-facebook {
+  color: #fff;
+  background-color: $color_facebook;
+}
+.bg-twitter {
+  color: #fff;
+  background-color: $color_twitter;
+}
+.bg-instagram {
+  color: #fff;
+  background-color: $color_instagram;
+}
+.bg-linkedin {
+  color: #fff;
+  background-color: $color_linkedin;
+}
+.bg-youtube {
+  color: #fff;
+  background-color: $color_youtube;
+}
+.bg-telegram {
+  color: #fff;
+  background-color: $color_telegram;
+}
+.bg-rss {
+  color: #fff;
+  background-color: $color_rss;
+}
+.bg-pinterest {
+  color: #fff;
+  background-color: $color_pinterest;
+}
+
+.border-facebook {
+  border-color: $color_facebook !important;
+}
+.border-twitter {
+  border-color: $color_twitter !important;
+}
+.border-instagram {
+  border-color: $color_instagram !important;
+}
+.border-linkedin {
+  border-color: $color_linkedin !important;
+}
+.border-youtube {
+  border-color: $color_youtube !important;
+}
+.border-telegram {
+  border-color: $color_telegram !important;
+}
+.border-rss {
+  border-color: $color_rss !important;
+}
+.border-pinterest {
+  border-color: $color_pinterest !important;
+}
