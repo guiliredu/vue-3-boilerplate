@@ -1,6 +1,6 @@
 # Vue 3 Boilerplate Template
 
-This template should help get you started developing with Vue 3 in Vite.
+This repo is mostly for personal use
 
 Contains:
 - Vue 3
